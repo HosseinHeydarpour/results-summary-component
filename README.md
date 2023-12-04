@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[https://your-solution-url.com](https://github.com/HosseinHeydarpour/results-summary-component)]
-- Live Site URL: [[https://your-live-site-url.com](https://hosseinheydarpour.github.io/results-summary-component/)https://hosseinheydarpour.github.io/results-summary-component/]
+- Solution URL: [https://github.com/HosseinHeydarpour/results-summary-component](Solution)
+- Live Site URL: [https://hosseinheydarpour.github.io/results-summary-component/](Live-Solution)
 
 
 ## My process
