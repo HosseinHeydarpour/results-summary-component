@@ -26,4 +26,37 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
+![Desktop Design](./screenshots/desktop.jpg)
+![Desktop active](./screenshots/desktop-active.jpg)
+![Tablet Design](./screenshots/tablet.jpg)
+![Mobile Design](./screenshots/mobile.jpg)
+
+
+
+### Links
+
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/HosseinHeydarpour/results-summary-component))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://hosseinheydarpour.github.io/results-summary-component/)https://hosseinheydarpour.github.io/results-summary-component/)
+
+
+## My process
+I employed CSS Grid and Flexbox to create the overall layout, and I utilized SASS to enhance the code’s usability
+
+### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- SASS
+
+### What I learned
+This challenge really helped me to undrestand CSS grid and Flex-box better for creating great layouts like this.
+
+### Continued development
+I still want to improve and enhace my abilities in CSS grid and Flex-box.
+
+## Author
+- Frontend Mentor - [@HosseinHeydarpour](https://www.frontendmentor.io/profile/HosseinHeydarpour)
+- Linkedin - [@hosseinheydarpour](www.linkedin.com/in/hosseinheydarpour)
 
