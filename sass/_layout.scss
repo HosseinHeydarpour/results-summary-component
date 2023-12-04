@@ -1,0 +1,222 @@
+.container {
+  max-width: 70rem;
+  margin: 10rem auto;
+  border-radius: 2.5rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, 1fr));
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-columns: repeat(1, minmax(min-content, 1fr));
+    margin: 0;
+    border-radius: 0;
+    height: 100vh;
+  }
+
+  background-color: $color-white;
+  box-shadow: 1rem 1rem 2rem rgba($color-light, 0.4);
+  // align-items: start;
+}
+
+.result-box {
+  padding-top: 3.2rem;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+  padding-bottom: 3.2rem;
+  text-align: center;
+  border-radius: 2.5rem;
+  @media only screen and (max-width: $bp-small) {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  display: flex;
+  flex-direction: column;
+  // padding: 3.2rem 4.8rem;
+  // padding-bottom: 4.6rem;
+
+  background-image: linear-gradient(
+    to bottom,
+    $color-light-back-blue-1,
+    $color-light-back-blue-2
+  );
+
+  &__circle {
+    position: relative;
+    margin-bottom: 8rem;
+    @media only screen and (max-width: $bp-small) {
+      margin-bottom: 4.8rem;
+      margin-top: -1.6rem;
+    }
+    &::after {
+      content: "";
+
+      background-image: linear-gradient(
+        to bottom,
+        $color-circle-1,
+        $color-circle-2
+      );
+      display: block;
+
+      width: 17rem;
+      height: 17rem;
+      @media only screen and (max-width: $bp-small) {
+        width: 15rem;
+        height: 15rem;
+      }
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+  }
+
+  &__result {
+    color: $color-white;
+    font-size: 5.2rem;
+    font-weight: 800;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__caption {
+    font-size: 1.4rem;
+    color: $color-light;
+    position: relative;
+    z-index: 3;
+  }
+
+  &__paragraph {
+    color: $color-light;
+  }
+}
+
+.summary-box {
+  padding-top: 3.2rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  padding-bottom: 3.2rem;
+  background-color: $color-white;
+  overflow: hidden;
+
+  &__results {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 3.6rem;
+  }
+
+  &__reaction {
+    display: flex;
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+
+    background-color: rgba($color-primary-light-red, 0.05);
+
+    color: $color-primary-light-red;
+
+    &--title {
+      color: $color-primary-light-red;
+    }
+
+    &--score {
+      color: $color-subtle-score;
+      font-weight: 800;
+
+      & span {
+        color: $color-dark-gray-blue;
+      }
+    }
+
+    & div {
+      display: flex;
+      gap: 0.8rem;
+      align-items: center;
+    }
+  }
+  &__memory {
+    display: flex;
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba($color-primary-orangey, 0.05);
+
+    &--title {
+      color: $color-primary-orangey;
+    }
+
+    &--score {
+      color: $color-subtle-score;
+      font-weight: 800;
+
+      & span {
+        color: $color-dark-gray-blue;
+      }
+    }
+
+    & div {
+      display: flex;
+      gap: 0.8rem;
+      align-items: center;
+    }
+  }
+  &__verbal {
+    display: flex;
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba($color-primary-green, 0.05);
+
+    &--title {
+      color: $color-primary-green;
+    }
+
+    &--score {
+      color: $color-subtle-score;
+      font-weight: 800;
+
+      & span {
+        color: $color-dark-gray-blue;
+      }
+    }
+
+    & div {
+      display: flex;
+      gap: 0.8rem;
+      align-items: center;
+    }
+  }
+  &__visual {
+    display: flex;
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba($color-primary-blue, 0.05);
+
+    &--title {
+      color: $color-primary-blue;
+    }
+
+    &--score {
+      color: $color-subtle-score;
+      font-weight: 800;
+
+      & span {
+        color: $color-dark-gray-blue;
+      }
+    }
+
+    & div {
+      display: flex;
+      gap: 0.8rem;
+      align-items: center;
+    }
+  }
+}
