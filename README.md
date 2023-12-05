@@ -47,10 +47,10 @@ I employed CSS Grid and Flexbox to create the overall layout, and I utilized SAS
 
 ### Built with
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS custom 
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
 - SASS
 
 ### What I learned
